@@ -1,0 +1,95 @@
+*{margin: 0;
+padding: 0;
+box-sizing:border-box;
+font-family:sans-serif;
+
+ 
+}
+
+body{background-color: #ffcc19;}
+input{ 
+width: 100%;
+margin-top: 2%;
+height: 35px;
+padding: 5px;
+border-radius: 7px ;
+border: none;
+
+
+
+}
+.first{
+    height: 250px; 
+    width: 300px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+
+.second{
+height: 250px;
+width: 300px;
+position: absolute;
+right:20px ;
+top: 200px;}
+
+
+h1{text-align: center;
+margin-top: 10px;
+
+
+font-size: 50px;
+font-weight: 900;}
+
+h2{text-align: center;
+margin: top 10px;
+font-size: 40px;
+font-weight: 700;}
+h4{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+h6{text-align: center;
+margin-top: 10px;
+font-size: 20px}
+
+
+
+
+
+form{
+margin:auto;
+width: 40%;
+border: none;
+margin-top: 30px;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+button{
+position: relative;
+margin-top: 2%;
+background-color: #26282d;
+color:#ffcc19 ;
+border: none;
+margin-left: 38%;
+width: 25%;
+padding: 2%;
+border-radius: 5px;
+font-size:  17px;
+font-weight: 500;
+cursor: pointer;
+transition: ease 0.2s;
+}
+.submit:hover{
+    background-color: white;
+    top: -7px;
+    
+}
+
